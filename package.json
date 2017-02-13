@@ -1,0 +1,41 @@
+{
+  "name": "micronect_server",
+  "version": "0.0.1",
+  "description": "Connected microwaves ! Don't wait in line anymore, check for the best moment to heathen your dish ! front by several people @ Simplon.co",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IotValleyHackerCamp/micronect_node_server.git"
+  },
+  "keywords": [
+    "microwave",
+    "connected",
+    "iot",
+    "simplon"
+  ],
+  "author": "Amine El Ghayate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IotValleyHackerCamp/micronect_node_server/issues"
+  },
+  "homepage": "https://github.com/IotValleyHackerCamp/micronect_node_server#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2", 
+    "react": "^15.4",
+    "react-dom": "^15.4"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
